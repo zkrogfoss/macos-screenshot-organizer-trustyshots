@@ -23,14 +23,21 @@ A macOS menu bar app for handing over several screenshots at once.
 
 ## Install
 
-There is no installer yet, so build it from source. You need macOS 14 or later and the Xcode Command Line Tools (`xcode-select --install`). Xcode is not required.
+1. Download the TrustyShots zip from the [latest release](https://github.com/zkrogfoss/macos-screenshot-organizer-trustyshots/releases/latest). macOS 14 or later, Apple silicon or Intel.
+2. Unzip it and move **TrustyShots** to **Applications**.
+3. Open it. macOS blocks it the first time, because the app is not notarized by Apple.
+4. Go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway**.
+
+The app appears in the menu bar, not in the Dock. It does not check for updates: to update, download the new release and replace the app.
+
+### Build from source
+
+You need the Xcode Command Line Tools (`xcode-select --install`). Xcode is not required.
 
 ```sh
 ./build.sh
 open "dist/TrustyShots.app"
 ```
-
-The app appears in the menu bar, not in the Dock. The build is signed ad hoc, so it is not ready to distribute to other Macs.
 
 ## Use
 
