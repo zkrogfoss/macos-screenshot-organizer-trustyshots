@@ -10,6 +10,8 @@ A macOS menu bar app for handing over several screenshots at once.
 
 > Version 0.1.0, in development.
 
+<img src="Branding/panel.jpg" width="420" alt="TrustyShots panel with four screenshots selected in order">
+
 ## Features
 
 - **Multi-select:** thumbnails of the newest 60 images, pasted in the order you click them
@@ -52,6 +54,8 @@ The app appears in the menu bar, not in the Dock. The build is signed ad hoc, so
 | About, Settings, Reset Position, Trash All, Quit | Right-click the icon |
 
 ## Settings
+
+<img src="Branding/settings.png" width="340" alt="TrustyShots settings window">
 
 | Setting | Default |
 |---|---|
