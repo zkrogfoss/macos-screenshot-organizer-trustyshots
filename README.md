@@ -8,8 +8,6 @@ A macOS menu bar app for handing over several screenshots at once.
 
 **Select → ⌘C → paste.** Works with Claude Code, claude.ai, ChatGPT, Gmail, Obsidian and anything else that accepts pasted files.
 
-> Version 0.1.0, in development.
-
 <img src="Branding/panel.jpg" width="420" alt="TrustyShots panel with four screenshots selected in order">
 
 ## Features
